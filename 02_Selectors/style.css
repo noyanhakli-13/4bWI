@@ -1,0 +1,19 @@
+
+        /*ELement selector*/
+        div{
+            background-color:beige;
+        }
+        #header{
+            font-size: 2rem
+        }
+        /*Klassenselector*/
+        .sub{
+            color:chocolate
+        }
+        #text p{
+            background-color:blue;
+        }
+
+
+
+  

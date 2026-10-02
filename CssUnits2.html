@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            font-size: 30px
+        }
+
+        div {
+            height: 50px;
+            background-color: red;
+        }
+
+        .container1 {
+            width: 50%;
+            font-size: 0.8rem;
+            # bezieht sich auf basisschrift
+        }
+
+        .container2 {
+            width: 85vw;
+            height: 75vh;
+            # vh verhält sich zur Höhe des Viewports,
+            also hier 75% der Höhe des Browserfensters. 75vh=75% der Höhe des Browserfensters font-size: 0.4em
+        }
+
+        .main {
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="container1">
+            container1
+        </div>
+        <div class="container2">
+            container2
+        </div>
+    </div>
+
+</body>
+
+</html>
